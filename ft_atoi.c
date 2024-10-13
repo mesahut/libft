@@ -1,6 +1,5 @@
 
 #include <stdio.h>
-#include <xlocale.h>
 #include <stdlib.h>
 int	ft_negative(char *a1, int *sw)
 {
