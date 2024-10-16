@@ -1,6 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_atoi.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/10/15 17:55:17 by mayilmaz          #+#    #+#             */
+/*   Updated: 2024/10/15 18:01:41 by mayilmaz         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdlib.h>
+
 int	ft_negative(char *a1, int *sw)
 {
 	int	j;
@@ -12,7 +24,7 @@ int	ft_negative(char *a1, int *sw)
 	{
 		j++;
 	}
-	if(a1[j] == 45 || a1[j] == 43)
+	if (a1[j] == 45 || a1[j] == 43)
 	{
 		if (a1[j] == 45)
 			ops *= -1;
@@ -24,12 +36,12 @@ int	ft_negative(char *a1, int *sw)
 
 int	ft_atoi(const char *str)
 {
-	int	i;
-	int	number;
-	int	negative;
-	char *s1;
-	s1 = (char *)str;
+	int		i;
+	int		number;
+	int		negative;
+	char	*s1;
 
+	s1 = (char *)str;
 	number = 0;
 	negative = ft_negative(s1, &i);
 	while (s1[i] >= 48 && s1[i] <= 57)

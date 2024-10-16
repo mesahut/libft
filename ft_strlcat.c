@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strlcat.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/10/15 17:56:59 by mayilmaz          #+#    #+#             */
+/*   Updated: 2024/10/15 17:56:59 by mayilmaz         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 
 #include <stdio.h>
 #include <stddef.h>
@@ -19,13 +31,14 @@ size_t ft_strlcat(char *dst, const char *src, size_t size)
     while (dst[i] != '\0')
     i++;
     total = i;
+
     while((size - 1 > len) && (s2[len]))
     {
         s1[i] = s2[len];
         i++;
         len++;
-
     }
+
     total += len;
     return(total);
 }

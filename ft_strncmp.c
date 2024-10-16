@@ -1,6 +1,19 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strncmp.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/10/15 17:57:07 by mayilmaz          #+#    #+#             */
+/*   Updated: 2024/10/16 01:57:14 by mayilmaz         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 
 #include <string.h>
 #include <stdio.h>
+#include <stddef.h>
 int ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	int i;
