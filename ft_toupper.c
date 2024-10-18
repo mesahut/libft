@@ -6,19 +6,15 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 17:57:17 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/15 17:57:25 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/17 12:58:39 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 
-#include <stdio.h>
-int ft_toupper(int c)
+int	ft_toupper(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		c = c - 32;
 	return (c);
-}
-int main()
-{
-	printf("%c", ft_toupper('+'));
 }

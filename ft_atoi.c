@@ -6,11 +6,11 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 17:55:17 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/15 18:01:41 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/17 13:12:09 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 #include <stdlib.h>
 
 int	ft_negative(char *a1, int *sw)
@@ -53,10 +53,3 @@ int	ft_atoi(const char *str)
 	number *= negative;
 	return (number);
 }
-int main()
-{
-	char a[] = "42";
-	printf("%d\n", ft_atoi(a));
-	printf("%d", atoi(a));
-}
-

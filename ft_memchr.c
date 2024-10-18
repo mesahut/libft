@@ -6,33 +6,26 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 17:56:44 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/15 18:14:22 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/17 22:17:32 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include <string.h>
+#include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
-	char	*a;
-	int		i;
+	unsigned char	*s1;
+	int				i;
 
 	i = 0;
-	a = (char *)s;
-	while ((a[i] != '\0') && n > 0)
+	s1 = (unsigned char *)s;
+	while (n > 0)
 	{
-		if (a[i] == (unsigned char)c)
-			return (a + i);
+		if (s1[i] == (unsigned char)c)
+			return (s1 + i);
 		i++;
 		n--;
 	}
 	return (NULL);
-}
-
-int main()
-{
-    char x[] = "mahmuesataas";
-    printf("%s\n", ft_memchr(x,'t', strlen(x)));
-    printf("%s", memchr(x,'t',strlen(x)));
 }

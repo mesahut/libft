@@ -6,20 +6,15 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 17:57:14 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/15 17:57:15 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/17 12:59:26 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "libft.h"
-#include <stdio.h>
-int ft_tolower(int c)
+
+int	ft_tolower(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 		c = c + 32;
 	return (c);
-}
-int main()
-{
-	printf("%c", ft_tolower('Z'));
 }

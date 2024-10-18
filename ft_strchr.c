@@ -6,11 +6,11 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 17:56:57 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/15 18:23:45 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/17 14:08:52 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
 char	*ft_strchr(const char *s, int c)
 {
@@ -23,10 +23,7 @@ char	*ft_strchr(const char *s, int c)
 			return ((char *)s + i);
 		i++;
 	}
+	if (c == '\0')
+		return ((char *)&s[i]);
 	return (0);
-}
-int main()
-{
-	char a[10] = "mahmut";
-	printf("%s", ft_strchr(a,'a'));
 }

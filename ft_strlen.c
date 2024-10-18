@@ -6,19 +6,19 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 17:57:04 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/16 01:23:22 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/17 13:04:22 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stddef.h>
+#include "libft.h"
 
- size_t ft_strlen(const char *s)
+size_t	ft_strlen(const char *s)
 {
-    int i;
+	int	i;
 
-    i = 0;
-    while(s[i] != '\0')
-        i++;
-    return(i);
+	i = 0;
+	while (s[i] != '\0')
+		i++;
+	return (i);
 }
-
