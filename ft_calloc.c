@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include <stddef.h>
 #include "libft.h"
 
 void	*ft_calloc(size_t nmemb, size_t size)
@@ -22,15 +21,16 @@ void	*ft_calloc(size_t nmemb, size_t size)
 
 	i = 0;
 	byte = nmemb * size;
-	x = malloc(byte);
+	if (size && (byte / size != nmemb))
+		return (0);
+	x = (char *)malloc(byte);
 	if (!x)
 		return (0);
-	if ((byte / size) != nmemb)
-		return (0);
-	while (byte > i)
+	while (byte > 0)
 	{
 		x[i] = 0;
 		i++;
+		byte--;
 	}
-	return (x);
+	return ((void *)x);
 }
