@@ -6,7 +6,7 @@
 #    By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/16 01:04:31 by mayilmaz          #+#    #+#              #
-#    Updated: 2024/10/20 18:00:47 by mayilmaz         ###   ########.fr        #
+#    Updated: 2024/10/22 01:32:19 by mayilmaz         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -44,7 +44,14 @@ SRCS =	ft_atoi.c \
 		ft_substr.c \
 		ft_strjoin.c \
 		ft_strtrim.c \
-		ft_itoa.c
+		ft_itoa.c \
+		ft_strmapi.c \
+		ft_striteri.c \
+		ft_putchar_fd.c \
+		ft_putstr_fd.c \
+		ft_putendl_fd.c \
+		ft_putnbr_fd.c \
+		ft_split.c 
 OBJS=$(SRCS:.c=.o)
 
 $(NAME): $(OBJS)
