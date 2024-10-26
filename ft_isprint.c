@@ -6,11 +6,9 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 17:56:42 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/16 17:53:26 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/26 13:45:54 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isprint(int c)
 {

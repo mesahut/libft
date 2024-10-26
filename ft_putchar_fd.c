@@ -6,11 +6,12 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 19:06:07 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/22 08:31:58 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/26 14:24:09 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
+#include <fcntl.h>
 
 void	ft_putchar_fd(char c, int fd)
 {

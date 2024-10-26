@@ -6,12 +6,11 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/18 00:18:29 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/18 00:59:03 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/24 12:34:28 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
 #include <stdlib.h>
 
 char	*ft_strdup(const char *s1)

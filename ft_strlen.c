@@ -6,11 +6,10 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 17:57:04 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/17 13:04:22 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/24 12:35:01 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
 #include "libft.h"
 
 size_t	ft_strlen(const char *s)

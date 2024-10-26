@@ -6,7 +6,7 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/29 13:11:07 by omadali           #+#    #+#             */
-/*   Updated: 2024/10/22 08:28:53 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/26 16:35:33 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ static int	word_len(const char *s, char c)
 	return (a);
 }
 
-static int	wordsave(char **f, char const *s, char c, int i)
+static int	word_save(char **f, char const *s, char c, int i)
 {
 	int	b;
 	int	k;
@@ -86,7 +86,7 @@ char	**ft_split(char const *s, char c)
 	f = (char **)malloc(sizeof(char *) * (word_count(s, c) + 1));
 	if (!f)
 		return (NULL);
-	a = wordsave(f, s, c, i);
+	a = word_save(f, s, c, i);
 	if (a != 0)
 	{
 		free(f);

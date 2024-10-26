@@ -6,11 +6,10 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/18 01:28:14 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/20 17:49:06 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/24 12:36:22 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
 #include <stdlib.h>
 #include "libft.h"
 

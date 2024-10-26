@@ -6,14 +6,11 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 17:55:17 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/17 13:12:09 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/26 15:17:31 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-#include <stdlib.h>
-
-int	ft_negative(char *a1, int *sw)
+static int	ft_negative(char *a1, int *sw)
 {
 	int	j;
 	int	ops;
@@ -34,7 +31,7 @@ int	ft_negative(char *a1, int *sw)
 	return (ops);
 }
 
-int	ft_atoi(const char *str)
+int	ft_atoi(char *str)
 {
 	int		i;
 	int		number;

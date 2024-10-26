@@ -6,11 +6,9 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 17:57:12 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/20 00:28:31 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/24 12:35:44 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)
 {

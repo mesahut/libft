@@ -6,11 +6,10 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 17:56:44 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/17 22:17:32 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/24 12:32:35 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
 #include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)

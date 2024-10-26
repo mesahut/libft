@@ -6,13 +6,13 @@
 #    By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/16 01:04:31 by mayilmaz          #+#    #+#              #
-#    Updated: 2024/10/22 01:32:19 by mayilmaz         ###   ########.fr        #
+#    Updated: 2024/10/26 10:12:34 by mayilmaz         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
 
-CC = gcc
+CC = cc
 
 AR = ar rcs
 
@@ -55,10 +55,10 @@ SRCS =	ft_atoi.c \
 OBJS=$(SRCS:.c=.o)
 
 $(NAME): $(OBJS)
-	@$(AR)  $(NAME) $(OBJS)
-	@echo "OLMAK"
+	$(AR)  $(NAME) $(OBJS)
+	echo "OLMAK"
 %.o: %.c
-	@$(CC) $(FLAGS) -c $< -o $@
+	$(CC) $(FLAGS) -c $< -o $@
 
 all: $(NAME)
 

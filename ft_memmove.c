@@ -6,11 +6,10 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 17:56:52 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/18 00:13:36 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/24 12:33:04 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
 #include "libft.h"
 
 void	*ft_memmove(void *dst, const void *src, size_t len)

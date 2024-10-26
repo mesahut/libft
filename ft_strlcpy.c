@@ -6,11 +6,10 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 17:57:01 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/17 13:28:40 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/24 12:34:51 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
 #include "libft.h"
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)

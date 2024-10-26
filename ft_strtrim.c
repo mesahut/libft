@@ -6,7 +6,7 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/19 22:24:18 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/19 23:24:06 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/26 15:13:08 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,11 @@ static int	ft_find(char c, char *set)
 
 	i = 0;
 	while (set[i])
-		if (set[i++] == c)
+	{
+		if (set[i] == c)
 			return (1);
+		i++;
+	}
 	return (0);
 }
 

@@ -6,11 +6,9 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 17:56:37 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/16 17:53:22 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/22 19:17:17 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isascii(int c)
 {
