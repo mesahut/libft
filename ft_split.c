@@ -6,7 +6,7 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/29 13:11:07 by omadali           #+#    #+#             */
-/*   Updated: 2024/10/29 00:38:15 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/29 02:07:02 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,7 +83,7 @@ char	**ft_split(char const *s, char c)
 	int		i;
 
 	if (!s)
-		return(NULL);
+		return (NULL);
 	i = 0;
 	f = (char **)malloc(sizeof(char *) * (word_count(s, c) + 1));
 	if (!f)

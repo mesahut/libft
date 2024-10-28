@@ -6,7 +6,7 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 16:26:02 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/29 00:10:29 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/29 02:06:18 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	char	*s1;
 
 	if (!s || !f)
-		return(0);
+		return (0);
 	i = 0;
 	len = ft_strlen(s);
 	s1 = (char *)malloc(sizeof(char) * (len + 1));
