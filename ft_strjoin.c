@@ -6,7 +6,7 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/18 10:27:15 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/18 11:15:53 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/28 23:10:25 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	int		len2;
 	char	*dst;
 
+	if (!s1 || !s2)
+		return (NULL);
 	i = 0;
 	len1 = ft_strlen(s1);
 	len2 = ft_strlen(s2);

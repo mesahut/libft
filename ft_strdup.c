@@ -6,7 +6,7 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/18 00:18:29 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/24 12:34:28 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/28 20:20:47 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ char	*ft_strdup(const char *s1)
 	int		size;
 	char	*s2;
 
+	if ( !s1)
+		return(0);
 	i = 0;
 	size = ft_strlen(s1);
 	s2 = malloc((size + 1) * sizeof(char));

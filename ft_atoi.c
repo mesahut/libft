@@ -6,7 +6,7 @@
 /*   By: mayilmaz <mayilmaz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 17:55:17 by mayilmaz          #+#    #+#             */
-/*   Updated: 2024/10/26 15:17:31 by mayilmaz         ###   ########.fr       */
+/*   Updated: 2024/10/29 01:28:39 by mayilmaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,10 +33,10 @@ static int	ft_negative(char *a1, int *sw)
 
 int	ft_atoi(char *str)
 {
-	int		i;
-	int		number;
-	int		negative;
-	char	*s1;
+	int			i;
+	long int	number;
+	int			negative;
+	char		*s1;
 
 	s1 = (char *)str;
 	number = 0;
